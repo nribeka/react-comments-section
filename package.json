@@ -16,7 +16,7 @@
   "scripts": {
     "build": "microbundle --css-modules false --no-compress --format modern,cjs",
     "start": "microbundle --css-modules false watch --no-compress --format modern,cjs",
-    "prepare": "run-s build && cp -rv src/assets .",
+    "prepare": "run-s build && cp -rv src/assets dist/",
     "test": "run-s test:unit test:lint test:build",
     "test:build": "run-s build",
     "test:lint": "eslint .",
