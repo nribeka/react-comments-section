@@ -1,4 +1,4 @@
-import React, { useRef, useEffect, useState, useContext } from 'react'
+import { useRef, useEffect, useState, useContext } from 'react'
 import { GlobalContext } from '../../context/Provider'
 import Picker from 'emoji-picker-react'
 import './InputField.scss'
@@ -39,8 +39,7 @@ const EmojiInput = ({ text, setText, mode, inputStyle }: EmojiInputProps) => {
     }
   }, [chosenEmoji])
 
-  const onEmojiClick = (event: any, emojiObject: { emoji?: any }) => {
-    event
+  const onEmojiClick = (emojiObject: { emoji?: any }) => {
     setChosenEmoji(emojiObject)
   }
 

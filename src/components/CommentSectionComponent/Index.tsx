@@ -4,7 +4,6 @@ import './CommentSection.css'
 import { useContext } from 'react'
 import { GlobalContext } from '../../context/Provider'
 import _ from 'lodash'
-import React from 'react'
 import LoginSection from '../LoginSection/LoginSection'
 import NoComments from './NoComments'
 

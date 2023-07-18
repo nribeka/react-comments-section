@@ -5,7 +5,6 @@ import InputField from '../InputField/Index'
 import { Menu, MenuItem } from '@szhsin/react-menu'
 import '@szhsin/react-menu/dist/core.css'
 import DeleteModal from './DeleteModal'
-import React from 'react'
 
 interface CommentStructureProps {
   info: {

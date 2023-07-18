@@ -1,4 +1,3 @@
-import React from 'react'
 import './InputField.scss'
 import { useContext } from 'react'
 import { GlobalContext } from '../../context/Provider'
