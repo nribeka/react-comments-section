@@ -11,7 +11,7 @@
   "source": "src/index.tsx",
   "sideEffects": false,
   "engines": {
-    "node": ">=10"
+    "node": ">=18"
   },
   "scripts": {
     "build": "microbundle --css-modules false --no-compress --format modern,cjs",
@@ -26,7 +26,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^18.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.17.0",
